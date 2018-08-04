@@ -4,4 +4,4 @@ project(fact_pattern C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(fact_pattern
-        library.c library.h)
+        src/library.c src/library.h)
